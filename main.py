@@ -5,7 +5,7 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 hostName = "localhost" # Адрес для доступа по сети
 serverPort = 8080 # Порт для доступа по сети
 
-with open('index.html', 'r', encoding="utf-8") as f:
+with open('index2.html', 'r', encoding="utf-8") as f:
     page_content = f.read()
 
 
